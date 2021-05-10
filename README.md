@@ -1,4 +1,4 @@
-# Dijkstra & A Star
+# Dijkstra vs. A Star
 This repository contains two Java implementations. One is of Dijkstra's shortest path algorithm and the other is of the A Star algorithm. Both were compared on computational time using the included three topo files. Each file contains increasing amounts of nodes to see how each algorithm responds to more complex networks. The topo files represent graph abstractions where each line in the file represents the cost between two nodes. The first two values in the a line are node numbers and the third value is the cost between them which is used by each of the algorithms for computing the shortest path.
 
 Within the algorithms, these files are read in by entering the correct amount of nodes (4, 8, 16) when prompted. Providing a value other then these three throws an exception. Also, within the code, each of these files is converted to the 2D array called 'costs.'
